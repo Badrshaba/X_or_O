@@ -1,0 +1,62 @@
+
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    margin: auto;
+
+}
+.bord{
+    border: solid;
+    border-radius: 6px;
+    padding: 10px;
+ 
+    font-weight: 500;
+}
+.bord span{
+   
+    margin: 15px;
+    
+}
+.squre{
+    width: 80px;
+    height: 80px;
+    border: solid;
+    font-size: 50px;
+}
+.squre:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#item1{
+    animation:  2.5s .5s both infinite ;
+}
+@keyframes do{
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: rgb(255, 255, 0);
+    }
+    50%{
+        background-color: rgb(255, 0, 51);
+    }
+    75%{
+        background-color: rgb(0, 255, 4);
+    }
+    100%{
+        background-color: rgb(255, 0, 208);
+    }
+}
